@@ -1,15 +1,4 @@
 .idea
 .env
 /docker/db/data
-function.zip
 .DS_Store
-ohlcv.json
-
-scripts/monthly-aggregator/aggregate/
-scripts/monthly-aggregator/tmp/
-
-predictor/.ipynb_checkpoints/
-predictor/data/backtest/
-predictor/data
-
-scripts/monthly-aggregator/aggregate/

@@ -2,10 +2,10 @@ version: "3"
 services:
   db:
     image: mysql:5.7
-    container_name: tickers-db
+    container_name: tradings-db
     environment:
-      MYSQL_USER: chocopi
-      MYSQL_DATABASE: chocopi
+      MYSQL_USER: tradings
+      MYSQL_DATABASE: tradings
       MYSQL_PASSWORD: pass
       MYSQL_ROOT_PASSWORD: root
     volumes:
